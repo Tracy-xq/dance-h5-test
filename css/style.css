@@ -1,0 +1,405 @@
+body{
+
+margin:0;
+
+background:#f8f3ec;
+
+font-family:"Microsoft YaHei";
+
+}
+
+
+.box{
+
+text-align:center;
+
+padding:40px;
+
+}
+
+
+h1{
+
+font-size:32px;
+
+color:#8b5e3c;
+
+}
+
+
+p{
+
+font-size:18px;
+
+color:#555;
+
+}
+.small{
+
+font-size:14px;
+
+color:#888;
+
+margin-top:15px;
+
+}
+
+button{
+
+margin-top:30px;
+
+padding:15px 40px;
+
+border:none;
+
+border-radius:30px;
+
+background:#8b5e3c;
+
+color:white;
+
+font-size:18px;
+
+}
+.photo{
+
+width:180px;
+
+height:180px;
+
+margin:0 auto 30px;
+
+border-radius:50%;
+
+background-image:url("../images/hero.jpg");
+
+background-size:cover;
+
+background-position:center;
+
+}
+/* 第二屏优势模块 */
+
+.advantage{
+    padding:60px 20px;
+    text-align:center;
+}
+
+
+.advantage h2{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+
+.advantage p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+
+.advantage div{
+    margin:20px auto;
+    padding:18px;
+    max-width:300px;
+    line-height:1.8;
+    background:#fff;
+    border-radius:15px;
+}
+/* 课程模块 */
+
+.course{
+    padding:60px 20px;
+    text-align:center;
+    background:#f8f3ec;
+}
+
+
+.course h2{
+    font-size:28px;
+    margin-bottom:20px;
+}
+
+
+.course p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:35px;
+}
+
+
+.course div{
+    max-width:320px;
+    margin:20px auto;
+    padding:20px;
+    background:white;
+    border-radius:15px;
+    line-height:1.8;
+}
+/* 学员展示模块 */
+
+.students{
+    padding:60px 20px;
+    text-align:center;
+}
+
+
+.students h2{
+    font-size:28px;
+    line-height:1.5;
+    margin-bottom:20px;
+}
+
+
+.students p{
+    color:#666;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+
+.students img{
+    width:100%;
+    max-width:500px;
+    border-radius:20px;
+}
+/* 报名模块 */
+
+.signup{
+
+padding:60px 20px;
+
+text-align:center;
+
+background:#f8f3ec;
+
+}
+
+
+.signup h2{
+
+font-size:28px;
+
+margin-bottom:20px;
+
+}
+
+
+.signup p{
+
+color:#666;
+
+line-height:1.8;
+
+margin-bottom:30px;
+
+}
+
+
+.form{
+
+max-width:350px;
+
+margin:auto;
+
+}
+
+
+.form input,
+.form select{
+
+
+box-sizing:border-box;
+
+padding:15px;
+
+margin-bottom:15px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+font-size:16px;
+
+}
+
+
+.form button{
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:30px;
+
+background:#8b5e3c;
+
+color:white;
+
+font-size:18px;
+
+}
+/* 手机端适配 */
+
+@media (max-width:768px){
+
+
+body{
+    overflow-x:hidden;
+}
+
+
+/* 所有标题 */
+
+h1{
+    font-size:30px;
+}
+
+
+h2{
+    font-size:24px;
+}
+
+
+/* 图片 */
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+
+/* 首页按钮 */
+
+button{
+
+    min-height:48px;
+
+}
+
+
+/* 模块间距 */
+
+.hero,
+.advantage,
+.course,
+.students,
+.signup{
+
+    padding:40px 20px;
+
+}
+
+
+}
+/* 首屏优化 */
+
+.hero{
+    padding:20px 20px 10px;
+    text-align:center;
+}
+
+
+.hero img{
+    width:160px;
+    height:160px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:0px;
+}
+
+
+.hero h1{
+    font-size:30px;
+    line-height:1.4;
+    margin:5px 0;
+}
+
+
+.hero p{
+    font-size:16px;
+    line-height:1.8;
+}
+section{
+
+width:100%;
+
+box-sizing:border-box;
+
+}
+input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+}
+/* 精品小班优势模块 */
+
+.advantage{
+    padding:40px 20px;
+}
+
+
+.advantage h2{
+    text-align:center;
+    font-size:24px;
+    line-height:1.4;
+    margin-bottom:35px;
+}
+
+
+
+.advantage-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:18px;
+
+    margin-bottom:28px;
+
+}
+.advantage-item{
+    background:none;
+    border-radius:0;
+    padding:10px 0;
+    margin-bottom:35px;
+}
+
+
+.number{
+    font-size:38px;
+    font-weight:bold;
+    color:#9a6845;
+    line-height:1;
+    min-width:60px;
+}
+
+
+
+.advantage-text h3{
+
+    margin:0 0 8px;
+
+    font-size:18px;
+
+    color:#222;
+
+}
+
+
+
+.advantage-text p{
+
+    margin:0;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+    color:#666;
+
+}
