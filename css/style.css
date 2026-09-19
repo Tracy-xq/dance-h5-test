@@ -2,7 +2,7 @@ body{
 
 margin:0;
 
-background:#f8f3ec;
+background:#fcf8f3 url("../images/paper-bg.png") repeat;
 
 font-family:"Microsoft YaHei";
 
@@ -31,17 +31,13 @@ p{
 
 font-size:18px;
 
-color:#555;
+color:#5f554d;
 
 }
 .small{
-
 font-size:14px;
-
-color:#888;
-
+color:#66554b;
 margin-top:15px;
-
 }
 
 button{
@@ -63,9 +59,9 @@ font-size:18px;
 }
 .photo{
 
-width:180px;
+width:250px;
 
-height:180px;
+height:250px;
 
 margin:0 auto 30px;
 
@@ -93,7 +89,7 @@ background-position:center;
 
 
 .advantage p{
-    color:#666;
+    color:#62584f;
     line-height:1.8;
     margin-bottom:35px;
 }
@@ -112,7 +108,7 @@ background-position:center;
 .course{
     padding:60px 20px;
     text-align:center;
-    background:#f8f3ec;
+    background:transparent;
 }
 
 
@@ -123,7 +119,7 @@ background-position:center;
 
 
 .course p{
-    color:#666;
+    color:#62584f;
     line-height:1.8;
     margin-bottom:35px;
 }
@@ -153,7 +149,7 @@ background-position:center;
 
 
 .students p{
-    color:#666;
+    color:#62584f;
     line-height:1.8;
     margin-bottom:30px;
 }
@@ -172,7 +168,7 @@ padding:60px 20px;
 
 text-align:center;
 
-background:#f8f3ec;
+background:transparent;
 
 }
 
@@ -188,7 +184,7 @@ margin-bottom:20px;
 
 .signup p{
 
-color:#666;
+color:#62584f;
 
 line-height:1.8;
 
@@ -329,6 +325,7 @@ width:100%;
 
 box-sizing:border-box;
 
+
 }
 input,
 select {
@@ -400,6 +397,14 @@ select {
 
     line-height:1.7;
 
-    color:#666;
+    color:#62584f;
 
+}
+body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+    background:rgba(255,250,245,0.35);
+    pointer-events:none;
+    z-index:-1;
 }
